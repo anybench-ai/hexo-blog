@@ -1,100 +1,84 @@
 ---
 title: Daily Digest — 2026-04-05
-date: 2026-04-05 09:17:00 -0400
+date: 2026-04-05 10:11:00 -0400
 tags:
   - daily-digest
   - ai
-  - telecom
-  - satellite
+  - wireless
+  - leo
   - research
 categories:
   - digest
 ---
 
-## Anthropic cuts Claude subscription coverage for OpenClaw
-Anthropic is ending the practice of letting Claude subscribers consume their bundled usage through third-party harnesses like OpenClaw. Starting April 4, users who want to keep using Claude through these tools will need pay-as-you-go bundles or API-based billing instead.
+## Morning Digest for Sunday, April 5
 
-This matters directly for power users and agent-heavy workflows because it changes the economics of automation overnight. It also hints that frontier model providers are starting to optimize pricing around first-party surfaces rather than broad ecosystem usage.
+### OpenAI buys TBPN to shape the AI conversation
+OpenAI acquired the fast-growing tech media network TBPN and says it will preserve editorial independence while bringing the team into its strategy organization. The deeper signal is that OpenAI is investing not just in models and products, but also in the channels that shape how AI is interpreted by builders and the broader tech public.
 
-Source: https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban
+Source: [https://openai.com/index/openai-acquires-tbpn/](https://openai.com/index/openai-acquires-tbpn/)
 
-## NVIDIA researchers open-source CaP-X for agentic robotics
-Jim Fan and collaborators introduced CaP-X, an open agentic robotics stack covering perception APIs, control interfaces, benchmarking, and training-free execution across robot arms and humanoids. The project pushes the “coding agent” paradigm into physical environments where models need to see, plan, and act.
+### OpenAI shifts Codex toward usage-based team adoption
+OpenAI introduced pay-as-you-go Codex-only seats for ChatGPT Business and Enterprise and cut the annual ChatGPT Business seat price from $25 to $20. This looks like a deliberate push to make coding agents feel like standard business infrastructure rather than a niche premium feature.
 
-The bigger story is that agent research is no longer just about terminals and browsers. Robotics is becoming a proving ground for whether foundation models can generalize through APIs and self-built skill libraries in messy real-world settings.
+Source: [https://openai.com/index/codex-flexible-pricing-for-teams/](https://openai.com/index/codex-flexible-pricing-for-teams/)
 
-Source: https://x.com/DrJimFan/status/2039358115318243352
+### Google DeepMind opens Gemma 4 for local agent workflows
+Google DeepMind announced Gemma 4, a new family of open models for advanced reasoning and agentic workflows, released under Apache 2.0 and positioned for local hardware deployment. That matters because it keeps raising the ceiling for what small teams can run locally without relying entirely on closed hosted APIs.
 
-## Nokia lands a new 5G RAN deal with Virgin Media O2
-Nokia announced a new 5G RAN agreement with Virgin Media O2, extending a long-running relationship and reinforcing Nokia’s position in live carrier infrastructure. For wireless people, this is the kind of deployment news that quietly matters more than flashy concept demos.
+Source: [https://x.com/GoogleDeepMind/status/2039735446628925907](https://x.com/GoogleDeepMind/status/2039735446628925907)
 
-It is a reminder that the path from 5G into 5G-Advanced and eventually 6G still runs through capex cycles, vendor trust, and operator rollouts. Research trends only matter if they land in networks like this.
+### Qualcomm brings Gemma 4 to Snapdragon on day one
+Qualcomm highlighted day-zero Snapdragon support for Gemma 4, turning the release into a mobile and edge-AI story instead of a purely cloud-model story. For Dad’s interests, that is relevant because capable on-device AI will increasingly intersect with phones, wearables, and wireless systems.
 
-Source: https://x.com/nokia/status/2038905614508687789
+Source: [https://x.com/Qualcomm/status/2039806087969579042](https://x.com/Qualcomm/status/2039806087969579042)
 
-## Starlink inches closer to India rollout
-Starlink resurfaced its India ambitions by boosting Gwynne Shotwell’s public thanks to India’s telecom minister. While this is not a formal launch announcement, it is a clear signal that regulatory and market-entry discussions are moving.
+### NVIDIA leans hard into inference economics
+NVIDIA’s latest messaging emphasizes cost per token, performance per watt, and MLPerf Inference v6.0 results as the metrics that matter in the next AI phase. The strategic point is that the industry is moving from “who has the smartest model” toward “who can afford to serve intelligence at scale.”
 
-India is strategically important because it combines massive population scale with meaningful rural connectivity gaps. A full approval would be a major milestone for satellite broadband adoption and competitive pressure across terrestrial operators.
+Source: [https://x.com/nvidia/status/2040148759410081939](https://x.com/nvidia/status/2040148759410081939)
 
-Source: https://x.com/Starlink/status/2039765406525878549
+### Qwen 3.6 Plus crosses a trillion-token day on OpenRouter
+Qwen said Qwen3.6-Plus became the first model on OpenRouter to process more than 1 trillion tokens in a single day. Even with the usual leaderboard caveats, that throughput is a meaningful indicator of how quickly non-U.S. model ecosystems are achieving large-scale usage.
 
-## House Democrats challenge Starlink’s BEAD awards
-A new political fight is brewing around Starlink’s role in the U.S. broadband subsidy program. House Democrats urged NTIA to examine whether SpaceX is trying to loosen program requirements after receiving BEAD-related awards.
+Source: [https://x.com/Alibaba_Qwen/status/2040242594719158460](https://x.com/Alibaba_Qwen/status/2040242594719158460)
 
-This matters well beyond politics: it is a live test of whether LEO broadband can satisfy public-infrastructure obligations that were designed with terrestrial providers in mind. The answer could shape how satellite internet competes for future subsidy dollars.
+### SpaceX books two new national security launches for 2027
+SpaceX announced Falcon 9 missions for the U.S. Space Force and the Space Development Agency as early as 2027. It is a defense-space story more than a telecom one, but still an important signal for the growth of operational orbital infrastructure.
 
-Source: https://www.lightreading.com/satellite/house-dems-raise-deep-concern-over-starlink-s-bead-wins
-
-## Amazon is reportedly eyeing Globalstar
-Light Reading reports that Amazon may be exploring a deal involving Globalstar. If true, it would give Amazon another strategic asset in the satellite ecosystem as Project Kuiper ramps up.
-
-Even rumors matter here because the LEO market is increasingly defined by partnerships, spectrum access, and vertically integrated infrastructure. Any Amazon-Globalstar tie-up would deserve close watching for competitive implications versus Starlink and other direct-to-device players.
-
-Source: https://www.lightreading.com/satellite/amazon-sizing-up-deal-for-globalstar-report
-
-## Artemis II launches astronauts back toward the Moon
-NASA’s Artemis II mission launched a four-person crew on humanity’s first crewed moon mission since Apollo. The crew will not land, but the flight is a crucial systems test for Orion, mission operations, and the broader lunar return architecture.
-
-It also reinforces the sense that space is back in an operational buildout phase. That matters for everything from launch cadence to satellite supply chains to the long-term convergence between communications, compute, and orbital infrastructure.
-
-Source: https://spaceflightnow.com/2026/04/02/artemis-2-crew-blasts-off-on-historic-moon-mission/
+Source: [https://x.com/SpaceX/status/2039761711012475161](https://x.com/SpaceX/status/2039761711012475161)
 
 ## Research Radar
 
-### Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry
-**Authors:** Syed Eqbal Alam, Zhan Shu  
-**Venue:** arXiv
+### TensorPool: A 3D-Stacked 8.4TFLOPS/4.3W Many-Core Domain-Specific Processor for AI-Native Radio Access Networks
+**Authors:** Marco Bertuletti, Yichao Zhang, Diyou Shen, Alessandro Vanelli-Coralli  
+**Venue:** arXiv  
+This paper targets a core bottleneck in AI-native radio access networks: how to deliver meaningful compute for radio workloads without blowing the energy budget. It stands out because it treats AI-RAN as a hardware-software co-design problem.
 
-This paper proposes collaborative agents and critics for multimodal telemetry workflows, with a concrete networking use case in fault detection, severity estimation, and root-cause analysis. For AI-for-networking, it is notable because it frames operations as an explicitly multi-agent coordination problem rather than a single-model prediction task.
+Source: [http://arxiv.org/abs/2604.02291v1](http://arxiv.org/abs/2604.02291v1)
 
-Source: http://arxiv.org/abs/2604.00319v1
+### SEAL: An Open, Auditable, and Fair Data Generation Framework for AI-Native 6G Networks
+**Authors:** Sunder Ali Khowaja, Kapal Dev, Engin Zeydan, Madhusanka Liyanage  
+**Venue:** arXiv  
+SEAL is interesting because it focuses on auditable data generation for AI-native 6G systems, which is exactly the kind of groundwork needed if the field wants credible, comparable benchmarks instead of isolated demos.
 
-### Space-Time Adaptive Beamforming for Satellite Communications: Harnessing Doppler as New Signaling Dimensions
-**Authors:** Hyeongtak Yun, Seyong Kim, Jeonghun Park  
-**Venue:** arXiv
+Source: [http://arxiv.org/abs/2604.02128v1](http://arxiv.org/abs/2604.02128v1)
 
-This work tackles a hard LEO problem: dense downlinks create highly correlated channels that break classic zero-forcing precoding. The proposed approach exploits residual Doppler as an additional scheduling and beamforming dimension, which is a clever fit for real satellite dynamics.
+### Coverage and Rate Analysis of Follower-Based LEO Satellite Networks: A Stochastic Geometry Approach
+**Authors:** Juanjuan Ru, Ruibo Wang, Mohamed-Slim Alouini  
+**Venue:** arXiv  
+This paper studies clustered follower-based LEO architectures to reduce interference and improve coverage/rate behavior in mega-constellations. It is directly relevant to the systems side of future NTN design.
 
-Source: http://arxiv.org/abs/2603.29359v1
+Source: [http://arxiv.org/abs/2604.01265v1](http://arxiv.org/abs/2604.01265v1)
 
-### AI-Programmable Wireless Connectivity: Challenges and Research Directions Toward Interactive and Immersive Industry
-**Authors:** Haris Gacanin  
-**Venue:** arXiv
-
-A useful vision paper on bringing compact AI models and classical signal processing together for energy-efficient, adaptive wireless systems. The practical angle is what makes it relevant: less hype about giant LLMs, more focus on deployable AI inside 6G-era connectivity stacks.
-
-Source: http://arxiv.org/abs/2603.29752v1
-
-## MIT/Harvard Events This Week
-- **Apr 5** — Cross University Student Innovators Mixer (CUSI) @ MIT Innovation HQ  
-  Source: https://www.tnt.so/calendar
+## MIT/Harvard Event Note
+- **Apr 5 — Cross University Student Innovators Mixer (CUSI)** @ MIT Innovation HQ  
+  Link: [https://www.tnt.so/calendar](https://www.tnt.so/calendar)
 
 ## Source Issues
-- Brave Search hit repeated 429 rate limits, so web search coverage was partial.
-- `blogwatcher scan` succeeded, but `blogwatcher articles --unread` failed because this install does not support that flag; fallback was `blogwatcher articles`.
-- AST SpaceMobile produced no recent Bird results during this run.
-- Light Reading article pages were protected by anti-bot checks during direct fetch, so those summaries relied on feed/search metadata rather than full-page extraction.
+- Brave Search returned repeated 429 rate-limit errors during this run.
+- `blogwatcher scan` and `blogwatcher articles` ran successfully, but the visible backlog looked stale and was not reliable for fresh 24–48 hour picks.
+- A direct Google blog fetch for Gemma 4 returned 404 during collection, so the digest used the official Google DeepMind X announcement instead.
 
-## Takeaway
-AI agents are getting pricier in software, more ambitious in robotics, and increasingly tied to the very real infrastructure battles shaping wireless and space.
+## Bottom Line
+The strongest signal today is distribution: AI capability is no longer the whole story, because the competition is now shifting into media, pricing, edge deployment, and inference economics.
