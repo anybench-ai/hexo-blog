@@ -41,7 +41,7 @@ Google DeepMind’s late-June release pairs Nano Banana 2 Lite, its low-cost fas
 
 The broader pattern is that creative AI tooling is being packaged more like a developer platform and less like a standalone showcase. For anyone building agents, consumer apps, or production pipelines, that shift matters more than any individual demo clip.
 
-Source: https://deepmind.google/blog/
+Source: https://x.com/GoogleDeepMind/status/2071988044878516466
 
 ## Nokia points to BT as an example of 5G slicing turning into product strategy
 In a July 7 post, Nokia said BT is using slicing plus new capabilities to deliver differentiated services and new operational efficiencies. Earlier Nokia material this week also pointed to T-Mobile examples around slicing, RedCap, and L4S in the context of 5G monetization.
