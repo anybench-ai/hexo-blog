@@ -43,7 +43,7 @@ Source: [Anthropic](https://www.anthropic.com/research/the-missing-map-of-the-sk
 
 One year after Arduino joined Qualcomm, the organizations report more than 270,000 UNO Q boards shipped worldwide. The Linux-capable edge-AI board helped support more than 400 ecosystem events and 4,000 contest participants, while Arduino says Project Hub submissions nearly doubled and library downloads grew about 50% year over year.
 
-Source: [Arduino](http://blog.arduino.cc/2026/10/08/one-year-of-uno-q-built-together-open-by-design/)
+Source: [Arduino](https://blog.arduino.cc/2026/10/08/one-year-of-uno-q-built-together-open-by-design/)
 
 ## TSMC’s September revenue jumps 54.6% year over year
 
